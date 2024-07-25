@@ -13,3 +13,4 @@ C:\Users\ASUS\source\repos\FinalProject\Entities\obj\Debug\net8.0\Entities.dll
 C:\Users\ASUS\source\repos\FinalProject\Entities\obj\Debug\net8.0\refint\Entities.dll
 C:\Users\ASUS\source\repos\FinalProject\Entities\obj\Debug\net8.0\Entities.pdb
 C:\Users\ASUS\source\repos\FinalProject\Entities\obj\Debug\net8.0\ref\Entities.dll
+c:\Users\ASUS\source\repos\FinalProject\Entities\obj\Debug\net8.0\Entities.sourcelink.json

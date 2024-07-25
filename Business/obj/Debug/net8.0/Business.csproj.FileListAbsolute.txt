@@ -17,3 +17,4 @@ C:\Users\ASUS\source\repos\FinalProject\Business\obj\Debug\net8.0\Business.dll
 C:\Users\ASUS\source\repos\FinalProject\Business\obj\Debug\net8.0\refint\Business.dll
 C:\Users\ASUS\source\repos\FinalProject\Business\obj\Debug\net8.0\Business.pdb
 C:\Users\ASUS\source\repos\FinalProject\Business\obj\Debug\net8.0\ref\Business.dll
+c:\Users\ASUS\source\repos\FinalProject\Business\obj\Debug\net8.0\Business.sourcelink.json

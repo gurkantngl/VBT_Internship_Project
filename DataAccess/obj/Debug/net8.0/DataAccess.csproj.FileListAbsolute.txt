@@ -15,3 +15,4 @@ C:\Users\ASUS\source\repos\FinalProject\DataAccess\obj\Debug\net8.0\DataAccess.d
 C:\Users\ASUS\source\repos\FinalProject\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
 C:\Users\ASUS\source\repos\FinalProject\DataAccess\obj\Debug\net8.0\DataAccess.pdb
 C:\Users\ASUS\source\repos\FinalProject\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+c:\Users\ASUS\source\repos\FinalProject\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json

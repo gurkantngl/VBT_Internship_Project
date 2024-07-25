@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SnX17CJyRB4=",
+  "dgSpecHash": "qlE6kWHfj3M=",
   "success": true,
-  "projectFilePath": "c:\\Users\\ASUS\\source\\repos\\FinalProject\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\source\\repos\\FinalProject\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\autofac\\8.0.0\\autofac.8.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\autofac.extensions.dependencyinjection\\9.0.0\\autofac.extensions.dependencyinjection.9.0.0.nupkg.sha512",

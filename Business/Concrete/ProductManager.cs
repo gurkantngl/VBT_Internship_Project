@@ -14,12 +14,12 @@ namespace Business.Concrete
     public class ProductManager : IProductService
     {
         IProductDal _productDal;
-        ICategoryDal _categoryDal;
+        ICategoryService _categoryService;
 
-        public ProductManager(IProductDal productDal, ILogger logger, ICategoryDal categoruDal)
+        public ProductManager(IProductDal productDal, ILogger logger, ICategoryService categoryService)
         {
             _productDal = productDal;
-            _categoryDal = categoruDal;
+            _categoryService = categoryService;
         }
 
         
@@ -27,7 +27,7 @@ namespace Business.Concrete
         public IResult Add(Product product)
         {
             IResult result = BusinessRules.Run(CheckIfProductNameExists(product.ProductName), 
-                CheckIfProductCountOfCategoryCorrect(product.CategoryId));
+                CheckIfProductCountOfCategoryCorrect(product.CategoryId), CheckIfCategoryLimitExceded());
 
             if (result != null) 
             {
@@ -95,11 +95,11 @@ namespace Business.Concrete
             }
             return new SuccessResult();
         }
-        private IResult CheckIfCategoryLimitExceded(int categoryId)
+        private IResult CheckIfCategoryLimitExceded()
         {
-            if (_productDal.GetAll(p=> p.CategoryId == categoryId).Count() >= 15)
+            if (_categoryService.GetAll().Data.Count > 15)
             {
-                return new ErrorResult();
+                return new ErrorResult(Messages.CategoryLimitExceded);
             }
             return new SuccessResult();
         }

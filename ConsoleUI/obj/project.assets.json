@@ -3113,14 +3113,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\ASUS\\source\\repos\\FinalProject\\Business\\Business.csproj": {
-              "projectPath": "c:\\Users\\ASUS\\source\\repos\\FinalProject\\Business\\Business.csproj"
+            "C:\\Users\\ASUS\\source\\repos\\FinalProject\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\source\\repos\\FinalProject\\Business\\Business.csproj"
             },
             "C:\\Users\\ASUS\\source\\repos\\FinalProject\\DataAccess\\DataAccess.csproj": {
               "projectPath": "C:\\Users\\ASUS\\source\\repos\\FinalProject\\DataAccess\\DataAccess.csproj"
             },
-            "c:\\Users\\ASUS\\source\\repos\\FinalProject\\Entities\\Entities.csproj": {
-              "projectPath": "c:\\Users\\ASUS\\source\\repos\\FinalProject\\Entities\\Entities.csproj"
+            "C:\\Users\\ASUS\\source\\repos\\FinalProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\source\\repos\\FinalProject\\Entities\\Entities.csproj"
             }
           }
         }
