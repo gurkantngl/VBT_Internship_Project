@@ -1,9 +1,14 @@
-﻿using Azure.Core;
-using Core.Entities.Concrete;
+﻿using Core.Entities.Concrete;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace Core;
-
-public interface ITokenHelper
+namespace Core.Utilities.Security.JWT
 {
-    AccessToken CreateToken(User user, List<OperationClaim> operationClaims);
+    public interface ITokenHelper
+    {
+        AccessToken CreateToken(User user, List<OperationClaim> operationClaims);
+    }
 }
+
+//23.05 Dersteyiz

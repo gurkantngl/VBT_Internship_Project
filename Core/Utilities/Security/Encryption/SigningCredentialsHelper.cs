@@ -1,11 +1,15 @@
 ﻿using Microsoft.IdentityModel.Tokens;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace Core.Utilities.Security.Encryption;
-
-public class SigningCredentialsHelper
+namespace Core.Utilities.Security.Encryption
 {
-    public static SigningCredentials CreateSigningCredentials(SecurityKey securityKey)
+    public class SigningCredentialsHelper
     {
-        return new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha512Signature);
+        public static SigningCredentials CreateSigningCredentials(SecurityKey securityKey)
+        {
+            return new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha512Signature);
+        }
     }
 }
